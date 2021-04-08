@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T01:33:16.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="3wyvxl-N6PGdOVeTjc0v" version="14.5.8" type="github"><diagram id="orvvNgWyNJdVt5hw9mTJ" name="Page-1">zVZNb9swDP01PmaIP+K0xybtug0rMCwDhh0Vm7GFypIr03XSXz8yluO4ToEWGJZcYuqRkqj3KEZeuCy291aU+YNJQXnBNN164a0XBP40vKIPI7sWmUUOyKxMXVAPrOQLdDMdWssUqkEgGqNQlkMwMVpDggNMWGuaYdjGqOGupchgBKwSocbob5li3qJXwbzHv4DM8m5nP75uPYXogt1JqlykpjmCwjsvXFpjsLWK7RIUk9fx0s77/Ib3kJgFje+Z8NBYf15/q/78fPz1/WWivj4tfkzcKs9C1e7AaIXULJhAwVkDuvRx13FiTa1T4GV9L1w0uURYlSJhb0NVQFiOhXJutwFYhO2bmfsHPqiQwBSAdkch3YSOQldDfuTGTa/IISY/UiN2mHBFkB2W7nkiw1H1AdqCEW1k0oyLoi2cRRdGWziuNqjwslibXV9asUUj1rwgVrTrYmM0s7dp6SD0qeZuskBZQKWhsaYQuqwK7F1kZe67X6IqhR4Q3gXy2pNq349vKMD3P/nU3MrteKl70GAFAje9mjuzglaEShpdkWk23LW5r0id8Wb1esKKk9zsXpPBV8dwImvqhxWysC5BoqzNcZg3we3pO/jMZRMPqyY4UTUH7L9UzexE1VxYHw/PfrXiyycpOjtJ8xFJt/KZXmV8qXP+3YDA2rKV5MKKBMHKCmXCl1tqNMPbLzRfdm787bjvBK+YJw5xSC81BvMIS6OMJUQbDdyopFKvIPovzjQNE+IcCF+wIpIedTfOUcg05W1O6tkrPv03kgbTeCDpfKxo5MdjRYOPK0rD/kW59x29y8O7vw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-08T01:41:07.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="U5v7zDxKomn2utzrQPzo" version="14.5.8" type="github">
+  <diagram id="orvvNgWyNJdVt5hw9mTJ" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mwr17uJsYRkTLz-lIqBP-1" value="train data set" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mwr17uJsYRkTLz-lIqBP-2" value="valid data set" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mwr17uJsYRkTLz-lIqBP-3" value="test data set" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mwr17uJsYRkTLz-lIqBP-4" value="&lt;font face=&quot;timesnewromanpsmt&quot;&gt;&lt;span style=&quot;font-size: 11.1116px&quot;&gt;Generate multiple versions of training sub-datasets based on bootstrap&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="240" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mwr17uJsYRkTLz-lIqBP-5" value="Train a series of improved CNNs using the subdatasets" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="340" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mwr17uJsYRkTLz-lIqBP-6" value="Obtain the confusion matrix of the validation set" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="440" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mwr17uJsYRkTLz-lIqBP-7" value="Divide the feature characteristics into training and testing datasets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="206" y="70" width="416" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
