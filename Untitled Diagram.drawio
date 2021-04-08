@@ -1,29 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T01:41:07.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="U5v7zDxKomn2utzrQPzo" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-08T02:08:29.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="wx8R6XtiJ26VgkUURCCY" version="14.5.8" type="github">
   <diagram id="orvvNgWyNJdVt5hw9mTJ" name="Page-1">
-    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mwr17uJsYRkTLz-lIqBP-1" target="Mwr17uJsYRkTLz-lIqBP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Mwr17uJsYRkTLz-lIqBP-1" value="train data set" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="140" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Mwr17uJsYRkTLz-lIqBP-2" target="Mwr17uJsYRkTLz-lIqBP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Mwr17uJsYRkTLz-lIqBP-2" value="valid data set" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mwr17uJsYRkTLz-lIqBP-3" target="KqhrcMp4xMbINcb1mDZ9-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Mwr17uJsYRkTLz-lIqBP-3" value="test data set" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="140" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mwr17uJsYRkTLz-lIqBP-4" target="Mwr17uJsYRkTLz-lIqBP-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Mwr17uJsYRkTLz-lIqBP-4" value="&lt;font face=&quot;timesnewromanpsmt&quot;&gt;&lt;span style=&quot;font-size: 11.1116px&quot;&gt;Generate multiple versions of training sub-datasets based on bootstrap&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="240" width="240" height="60" as="geometry" />
+          <mxGeometry x="60" y="220" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mwr17uJsYRkTLz-lIqBP-5" target="Mwr17uJsYRkTLz-lIqBP-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Mwr17uJsYRkTLz-lIqBP-5" value="Train a series of improved CNNs using the subdatasets" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="340" width="240" height="60" as="geometry" />
+          <mxGeometry x="60" y="300" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mwr17uJsYRkTLz-lIqBP-6" target="KqhrcMp4xMbINcb1mDZ9-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Mwr17uJsYRkTLz-lIqBP-6" value="Obtain the confusion matrix of the validation set" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="440" width="240" height="60" as="geometry" />
+          <mxGeometry x="320" y="300" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mwr17uJsYRkTLz-lIqBP-7" value="Divide the feature characteristics into training and testing datasets" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="206" y="70" width="416" height="20" as="geometry" />
+          <mxGeometry x="232" y="100" width="416" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KqhrcMp4xMbINcb1mDZ9-1" target="KqhrcMp4xMbINcb1mDZ9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-1" value="ensemble selection based on spectral clustering" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="380" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KqhrcMp4xMbINcb1mDZ9-12" target="KqhrcMp4xMbINcb1mDZ9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-12" value="individual learners" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="380" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KqhrcMp4xMbINcb1mDZ9-16" target="KqhrcMp4xMbINcb1mDZ9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-16" value="A collection of diagnostic results of&amp;nbsp; single learners" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="460" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-18" value="Obtain final results based on Majority Voting" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="535" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="260" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="260" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="210" width="260" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-27" value="basic classifier establishment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="610" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-28" value="selective ensemble learning" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="610" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-31" value="fault diagnosis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="610" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KqhrcMp4xMbINcb1mDZ9-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="780" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
